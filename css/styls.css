@@ -1,5 +1,18 @@
 body {
   font-family: "Shantell Sans", cursive;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://fondosmil.com/fondo/12664.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  margin: 4px;
+  margin-left: 10px;
+  color: white;
+}
+
+.colorblack {
+  color: black;
 }
 
 .img-normie {
@@ -9,7 +22,6 @@ body {
 }
 .black {
   background-color: black;
-  color: white;
 }
 
 .space {
@@ -88,10 +100,11 @@ body {
   background-image: url(https://t4.ftcdn.net/jpg/01/88/39/39/360_F_188393937_aUi7ptgnXh7CducGkEVaf1fGHeYi7tEY.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 4%;
 }
 
 .espacio {
-  margin: 1.5rem;
+  margin: 1.6rem;
 }
 
 .backreiki {
@@ -110,4 +123,16 @@ body {
   background-image: url(https://universothetahealing.com/wp-content/uploads/2016/03/pendulos-esotericos.png);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.centers {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
 }
